@@ -53,4 +53,6 @@ In a situation where orphanage leavers and those requiring guardians continue to
 
  
 ## ✔️ Source
-* Github Link that we refered: [Reference Link](https://github.com/SongChiyoon/twitter/tree/master) </br>
+* Github Link: [Reference Link](https://github.com/SongChiyoon/twitter/tree/master) </br>
+* Blog Link: [Reference Link](https://bskwak.tistory.com/181) </br>
+* Blog Link: [Reference Link](https://blog.naver.com/highkrs/220844554537) </br>
