@@ -1,56 +1,61 @@
 # Database-Project
-This is the result of a JDBC project created using Java Eclipse and MySQL.
+This is the result of a JDBC project created using Java Eclipse and MySQL. </br> </br>
 
 ## Motivation
-In a situation where orphanage leavers and those requiring guardians continue to experience economic difficulties, and in South Korea, where labor shortages are worsening as we enter a super-aging society, the introduction of a job matching system for orphanage leavers is an urgent task.
+The aim of this university project was to develop a JDBC application with SNS functionalities as part of our database practice using Java Eclipse and MySQL. </br> </br>
+
+## Project Structure
+<img width="1079" alt="스크린샷 2024-07-03 오전 11 43 25" src="https://github.com/joon-hee-kim/Database-Project/assets/121689436/1a629933-2a9d-4924-b957-d309cc9975f2"> </br>
+
+For simplicity, I have implemented class diagrams with class names only. </br>
+
+1. Board.java: </br>
+- Manages the main board interface where users can post messages, view posts, and interact with the posts by liking or deleting them. It integrates with the database to fetch and store posts. </br>
+ 
+2. ChatServer.java: </br>
+- Acts as a server for handling chat messages between users. Manages client connections and broadcasts messages to connected clients. </br> </br> 
+
+3. ChatWindow.java: </br>
+- Provides a chat interface for users to send and receive messages. Connects to ChatServer and interacts with DbAccess to store chat history. </br>
+ 
+4. DbAccess.java: </br>
+- Handles all database operations including user authentication, post management, follow management, and message storage.
+- Acts as the data access layer for the application. </br>
+ 
+5. Edit.java: </br>
+- Provides a user interface for users to edit their profile information, specifically for changing their passwords. </br></br>
+
+6. Follow.java: </br>
+- Manages the follow relationships between users. Provides functionality to follow/unfollow users and view followers.
+- Also integrates chat initiation with followers. </br>
+ 
+7. Login.java: </br>
+- Provides the login interface for the application.
+- Authenticates users against the database and navigates to the main board or registration window based on user input. </br></br>
+
+8. Message.java: </br>
+- Represents a chat message entity containing sender ID, message text, and timestamp. Used for storing and retrieving chat messages. </br></br>
+
+9. Post.java: </br>
+- Represents a post entity containing post ID, content, writer, date, and likes. Used for storing and retrieving posts. </br></br>
+
+10. Register.java: </br>
+- Provides the user registration interface. Collects user details and stores them in the database. </br></br>
+
+11. Search.java: </br>
+- Allows users to search for other users by ID. Provides options to follow the searched users or view their board. </br></br>
+
+12. Start.java: </br>
+- Entry point of the application. Initializes the login interface. </br></br>
 
 ## Output
-**Step 1. Data Curation** (Reference to **Data Source**)</br></br>
-**Step 2. Data Preprocessing** (Reference to **Algorithm**)</br></br>
-**Step 3. Modeling** </br>
-
-- #1. Perform regional latitude/longitude-based clustering using the KMeans algorithm </br>
-<img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b"> </br>
-
-
-- #1. Using K-Means algorithm </br>
-#2. Perform clustering based on cluster latitude/longitude and labor values </br>
-<img width="452" alt="그림2" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/548f621a-0517-4d71-92f3-43bf14cc9df1"> </br>
-
-
-**Step 4. Analysis and visualization** </br>
-
-- By looking at the visualized data, you can see which regions have a low labor demand ratio (Red and green areas represent high and low labor demand, respectively). </br>
-- Therefore, population should be allocated to these regions first. </br>
-<img width="452" alt="그림3" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/c426552d-7d74-4470-acc6-2920c49f1822"> </br>
-
-
-**Step 5. Childcare facility matching**</br>
-
-- Distance calculation </br>
-- The figure below shows the step for calculating the distance between child care facilities and labor demand areas. </br>
-<img width="452" alt="그림4" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/f06ae4bf-b01b-49f9-9dd0-64695f602ed1"> </br>
-
-
-- Ranking calculation </br>
-<img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5"> </br>
-- This figure shows ranking calculations based on distance and labor demand ratio. Each cluster is ranked, which helps determine which areas should receive priority attention for employment placement. </br>
-- The value in the “노동수치_군집” column represents the unique number of each cluster, and the value in the “배치” column represents the rank in which each cluster will be assigned labor. For example, Cluster 0 ranks 81st to receive labor. </br>
-
-
-**Final result** </br>
-- The figure below is 3 childcare centers closest to cluster number 49 as an example. </br>
-(The value in the “노동수치 군집 번호, 보육 시설, 거리” column means Labor figures "Cluster number, childcare facilities, distance".) </br>
-<img width="549" alt="스크린샷 2024-06-16 오후 11 46 19" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/2b81761b-e5da-42cd-b476-31cf0dd4408a"> </br></br>
-
-
-## Algorithm
 
 
 ## 👥 Team Member
-
 201934219 Kim Joonhee </br>
-
+202035331 Park Ga-hyeon </br>
+202037033 Park Jeong-su </br>
+202237783 Lee Chae-eun </br>
  
 ## ✔️ Source
 * Github Link: [Reference Link](https://github.com/SongChiyoon/twitter/tree/master) </br>
