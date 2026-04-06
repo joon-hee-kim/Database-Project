@@ -123,6 +123,12 @@ For simplicity, I have implemented class diagrams with class names only. </br>
 
 <img src="https://github.com/user-attachments/assets/a6b9c9c7-b898-48b5-ac4e-6b05aa111f6c" width="600"/>
 
+</br></br>
+
+## **Demo Video** (**A little loading!**) </br>
+[데이터베이스 및 실습 팀 프로젝트 구현영상 풀영상.mp4.zip](https://github.com/user-attachments/files/26511941/mp4.zip)
+
+</br>
 
 ## 👥 Team Member
 201934219 Kim Joonhee </br>
