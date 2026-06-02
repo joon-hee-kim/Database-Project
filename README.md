@@ -1,4 +1,4 @@
-# Database-Project
+# Twitter-like Database System
 This is the result of a JDBC project created using Java Eclipse and MySQL. </br> </br>
 
 ## Motivation
