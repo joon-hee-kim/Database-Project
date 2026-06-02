@@ -126,7 +126,7 @@ For simplicity, I have implemented class diagrams with class names only. </br>
 </br></br>
 
 ## **Demo Video** (**A little loading!**) </br>
-[데이터베이스 및 실습 팀 프로젝트 구현영상 풀영상.mp4.zip](https://github.com/user-attachments/files/26511941/mp4.zip)
+[Full Demo Video: Database System Team Project.mp4.zip](https://github.com/user-attachments/files/26511941/mp4.zip)
 
 </br>
 
